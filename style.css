@@ -1,0 +1,119 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url('./Img/1.png');
+    background-size: 100% 110%;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* main */
+
+.left {
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 34px;
+    top: 20px;
+}
+
+.left img {
+    width: 70px;
+    border: 5px solid rgb(3, 3, 3);
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.left div {
+    text-align: center;
+    font-size: 26px;
+    line-height: 19px;
+}
+
+.mid {
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+    /* border: 2px solid rgb(9, 199, 66); */
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+    /* border: 2px solid rgb(200, 255, 0); */
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: gray;
+}
+
+.btn {
+    margin: 0 9px;
+    color: white;
+    background-color: black;
+    padding: 8px 17px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: red;
+    background-color: white;
+}
+
+.container {
+    border: 2px solid white;
+    margin: 106px 80px;
+    padding: 75px;
+    width: 40%;
+    border-radius: 28px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.form-group input {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    display: block;
+    width: 509px;
+    padding: 1px;
+    border: 2px solid white;
+    margin: 11px auto;
+    border-radius: 8px;
+}
+
+form:hover .button {
+    background: #fff;
+    color: #050303;
+    border: 2px solid black;
+    padding: 4px 14px;
+}
